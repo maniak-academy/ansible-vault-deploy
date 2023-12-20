@@ -4,6 +4,5 @@
   gather_facts: false
   connection: local
 
-  import_role:
-    name: vault_deploy
+  role: vault_deploy
 

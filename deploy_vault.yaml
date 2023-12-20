@@ -4,5 +4,9 @@
   gather_facts: false
   connection: local
 
-  role: vault_deploy
+  
+  tasks:
+    - name: Deploy Vault
+      import_role:
+        name: vault_deploy
 
